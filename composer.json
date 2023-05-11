@@ -1,0 +1,24 @@
+{
+  "name": "starbug/tachyons",
+  "type": "starbug-theme",
+  "description": "Tachyons theme for Starbug.",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ali Gangji",
+      "homepage": "https://github.com/cogentParadigm"
+    }
+  ],
+  "extra": {
+    "namespace": "Starbug\\Tachyons"
+  },
+  "require": {
+    "starbug/db": "*",
+    "starbug/menus": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starbug\\Tachyons\\": "src/"
+    }
+  }
+}
