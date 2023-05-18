@@ -1,7 +1,7 @@
 <?php
 namespace Starbug\Tachyons;
 
-use Starbug\Core\Controller;
+use Starbug\Routing\Controller;
 use Starbug\Js\DojoConfiguration;
 
 class StyleguideController extends Controller {

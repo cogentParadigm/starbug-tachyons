@@ -2,7 +2,7 @@
 namespace Starbug\Tachyons;
 
 use Starbug\Core\Admin\RouteProvider as AdminRouteProvider;
-use Starbug\Core\Routing\Route;
+use Starbug\Routing\Route;
 
 class RouteProvider extends AdminRouteProvider {
 
