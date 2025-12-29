@@ -15,6 +15,7 @@
 
 html {
   line-height: var(--base-line-height);
+  word-break: normal;
 }
 
 body {
