@@ -15,7 +15,8 @@
   "require": {
     "starbug/db": "*",
     "starbug/menus": "*",
-    "starbug/routing": "^1.0"
+    "starbug/routing": "^1.0",
+    "starbug/webpack": "*"
   },
   "autoload": {
     "psr-4": {

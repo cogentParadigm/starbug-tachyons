@@ -1,0 +1,6 @@
+---
+options:
+  entry:
+    tachyons: themes/tachyons/js/index.js
+aliases:
+  tachyons: themes/tachyons/public/js/
