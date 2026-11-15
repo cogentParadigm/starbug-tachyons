@@ -17,7 +17,8 @@
     "starbug/display": "^0.9",
     "starbug/menus": "*",
     "starbug/routing": "^1.0",
-    "starbug/webpack": "*"
+    "starbug/webpack": "*",
+    "starbug/dojo": "^1.1"
   },
   "autoload": {
     "psr-4": {

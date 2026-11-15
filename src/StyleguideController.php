@@ -2,7 +2,7 @@
 namespace Starbug\Tachyons;
 
 use Starbug\Routing\Controller;
-use Starbug\Js\DojoConfiguration;
+use Starbug\Dojo\Service\DojoConfiguration;
 
 class StyleguideController extends Controller {
   protected $colors = [

@@ -1,10 +1,10 @@
 <?php
 namespace Starbug\Tachyons;
 
-use Starbug\Admin\RouteProvider as AdminRouteProvider;
 use Starbug\Routing\Route;
+use Starbug\Routing\RouteProviderInterface;
 
-class RouteProvider extends AdminRouteProvider {
+class RouteProvider implements RouteProviderInterface {
 
   public function configure(Route $routes) {
     $styles = $routes->addRoute("styleguide/tachyons", [StyleguideController::class, "defaultAction"], [
